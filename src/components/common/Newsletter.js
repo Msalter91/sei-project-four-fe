@@ -1,6 +1,7 @@
 import React from 'react'
 import emailjs, { init } from '@emailjs/browser'
 import Error from './Error'
+import { emailid } from '../../config'
 
 
 
@@ -11,7 +12,7 @@ function Newsletter() {
   const [isSent, setIsSent] = React.useState(false)
   const [isError, setIsError] = React.useState(false)
   const [error, setError] = React.useState(null)
-  init('user_dTYhId9PfnHHtjIv8laXU')
+  init(emailid)
 
   const handleChange = (e) => {
     setIsValidEmail(true)
