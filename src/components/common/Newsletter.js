@@ -30,16 +30,12 @@ function Newsletter() {
         'template_wv1hvjh',
         formData)
       setFormData('')
-      console.log('success')
       setIsSent(true)
     } catch (err) {
       setError(err.status.toString())
       setIsError(true)
     }
   }
-
-
-  console.log(formData)
 
 
   return (
