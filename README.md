@@ -158,7 +158,7 @@ This was all of our first time using Tailwind which was a bit of a challenge to 
 ## Future Improvements
 - A recommended for you part of the user profile where dogs can be recommended to the user based on their preferences
 - The ability for people to ‘give up their dogs’ for adoption
-- Questions have answers that can be submitted only by authorised users.
+- Questions have answers that can be submitted only by authorised users
 
 
 
